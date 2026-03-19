@@ -1,0 +1,18 @@
+1. (0.25) Implemente a busca gulosa e A* para traçar a rota entre a cidade Prova City e Bucharest no mapa a seguir (em anexo). Imprima todas as cidades do caminho e distâncias importantes para cada uma das buscas. Faça um menu que permita escolher qual das buscas utilizar e mostre uma mensagem caso o caminho seja impossível. Deixe claro no código se as cidades são marcadas como visitadas ou não para ambos os algoritmos. Envie o projeto.
+
+2. (0.25) Implemente uma busca em profundidade e largura específica para o grafo a seguir, sabendo que o nó a ser buscado é o de número 13 e a raiz é o nó de número 3. Mostre, como saída do seu programa, o caminho percorrido do início até encontrar o nó objetivo para cada um dos algoritmos. Envie o projeto.
+
+3. (1.0) As regras de produção são uma poderosa estrutura para representação do conhecimento. Baseado nos estudos e exercícios realizados até aqui, implemente o jogo de perseguição a seguir, utilizando regras de produção.
+ - Quadro 10 x 10.
+ - Dois carros (C1 e C2) devem atingir apenas um objetivo (O), quem chegar primeiro ganha e o jogo acaba imediatamente.
+ - O objetivo tem sua coluna definida aleatoriamente no início, mas está sempre na primeira linha. No exemplo, linha 1 e coluna 8.
+ - Os carros sempre largam nos extremos inferiores. C1 na Linha 10, coluna 1. C2 na linha 10, coluna 10.
+ - Os carros andam para direita, esquerda e para cima, sempre tentando chegar mais perto do objetivo. Apenas um quadrado por vez quando sem poder.
+ - Existem poderes distribuídos aleatoriamente no quadro no início do jogo. Os poderes não necessariamente são bons. São 6 ao todo, de dois tipos:
+    i.      Mover objetivo à esquerda (P1).
+    ii.      Mover objetivo à direita (P2).
+ - Então se algum carro cai em cima de um quadro com poder, a ação P1 ou P2 deve ser realizada. Caso não seja possível mover o objetivo à direita ou à esquerda, o poder é perdido.
+ - Os carros podem estar no mesmo quadro em algum momento.
+ - Os carros andam alternadamente.
+
+Você deve produzir as regras necessárias para que o seu sistema funcione e utilizar a resolução de conflitos por prioridade.
